@@ -1,0 +1,46 @@
+header{
+    margin-bottom: 80px;
+   .nav-bar{
+    display: grid;
+    grid-template-columns: auto 75%;
+    justify-content: stretch;
+    margin-top: 30px;
+    .logo{
+        margin-left: -.5px;
+    }
+   
+ 
+   }
+   nav{
+    display: grid;
+    grid-template-columns: auto 50px 180px;
+    justify-content: end;
+    width: 100%;
+    column-gap: -20px;
+    ul{
+        li{
+            display: inline-block;
+            margin-left: 20px;
+            a{
+                color: rgba(30, 27, 27, 1);
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        column-gap: -40px;
+        align-items: center;
+        justify-content: center;
+      
+        span{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 175%;
+        }
+    }
+   }
+}

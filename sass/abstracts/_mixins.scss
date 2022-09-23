@@ -1,0 +1,110 @@
+
+@mixin fflc ($fs, $fw, $lh,$c) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    color: $c;
+}
+
+@mixin ffl ($fs,$fw,$lh){
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+}
+
+@mixin ls ($ls) {
+    letter-spacing: $ls;
+}
+
+@mixin op ($--op){
+    opacity: $--op;
+}
+
+.bg-op{
+    @include op(0.98);
+}
+
+//typography//
+.h1-text{
+    @include fflc(4rem,800,76px, #1E1B1B);
+}
+
+.h2-q{
+    @include fflc(58px,800,76px,#1E1B1B);
+    @include ls(-0.03em);
+}
+
+.h2-ex{
+    @include fflc(58px,800,76px,#661CE7);
+    @include ls(-0.03em);
+}
+
+.h3-q{
+    @include fflc(48px,700,140%,#1E1B1B);
+    @include ls(-0.03em);
+}
+.h3-wt{
+    @include fflc(48px,700,140%,white);
+    @include ls(-0.03em);
+}
+
+
+
+.p-txt{
+    @include ffl (16px, 600, 28px);
+    @include op(0.6);
+}
+
+.p-gr{
+    @include fflc (16px, 600, 28px,#939191);
+}
+
+.p-18{
+    @include ffl (18px, 600, 28px);
+    @include op(0.6);
+}
+
+.p-18-w{
+    @include fflc (18px, 600, 32px,white);
+    @include op(0.6);
+}
+
+.p-tl1{
+    @include ffl (32px, 700,48px);
+    @include ls (-0.03em);
+}
+
+.p-tl2{
+    @include ffl (24px, 700, 36px);
+    @include ls(-0.03em);
+}
+
+.p-tl3{
+    @include fflc (32px,700,24px,white);
+}
+.p-tl4{
+    @include ffl (24px, 600, 36px);
+    @include op(0.7); 
+}
+.a-txt{
+    @include fflc (16px, 600, 28px,white);
+}
+
+.p-tl5{
+    @include ffl (24px, 600, 36px); 
+    @include ls(-0.03em);
+}
+
+.p-tl5-w{
+    @include fflc (24px, 600, 36px,white); 
+    @include ls(-0.03em);
+}
+
+.p-bd{
+    @include fflc (18px,600,32px,var(--txt-grey));
+}
+
+
+
+
+    

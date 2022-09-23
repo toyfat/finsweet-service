@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@import "../variable/variable";
+
+
+main{
+    p{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 175%;
+    }
+    figcaption{
+        color: #939191;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

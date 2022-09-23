@@ -1,0 +1,48 @@
+.button{
+    padding: 16px 40px;
+    background: #FF6433;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    display: inline-block;
+    margin-top: 32px;
+}
+
+.button-blk{
+    padding: 16px 40px;
+    background: #1E1B1B;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    display: inline-block;
+    margin-top: 32px;
+}
+
+
+
+.know-more{
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: #1E1B1B;  
+   img{
+    margin-left: 20px;
+   }
+}
+
+.view-all{
+    float: right;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: #1E1B1B;
+    img{
+        margin-left: 20px;
+       } 
+}
